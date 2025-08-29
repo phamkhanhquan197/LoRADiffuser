@@ -12,15 +12,10 @@ This project implements a LoRA-based fine-tuning pipeline for Stable Diffusion m
 
 
 ## 🔧 Requirements
-
 - Python 3.9+
 - PyTorch 2.8+ with CUDA 12.8 support
 - Dependencies listed in `requirements.txt`
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
 ## 📁 Project Structure
 ```bash
 lora_project/
@@ -48,6 +43,10 @@ python3 -m venv LoRADiffuser
 ```bash
 cd LoRADiffuser/
 source bin/activate
+```
+4. Install dependencies:
+```bash
+pip install -r requirements.txt
 ```
 ## 🖼️ Dataset Preparation
 1. Download and preprocess your dataset:
